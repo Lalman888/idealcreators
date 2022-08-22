@@ -30,7 +30,7 @@ const Navbar = () => {
                   </div>
              </nav>
         </div>
-        <div className={` ${menu ? "block right-0" : "hidden -right-[420px]"} ease-in duration-500  bottom-0 absolute z-[9999] top w-[390px]  `} >
+        <div className={` ${menu ? "block right-0" : "hidden -right-[420px]"} rubikfont ease-in duration-500  bottom-0 absolute z-[9999] top w-[390px]  `} >
              <div className='close-menu' onClick={() => setMenu(false)}>
               
              </div>

@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&family=Source+Code+Pro:wght@500;600;700&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
     
+}
+.rubikfont{
+    font-family: 'Rubik', sans-serif;
 }
 
 div.close-menu{
@@ -28,7 +31,7 @@ div.hero-text{
 background: linear-gradient(to right, #0095FA 0%, #00c1cd 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-family: "Source Code Pro",Sans-serif;
+font-family: 'Source Code Pro', monospace;
 font-size: 92px;
 font-weight: 700;
 line-height: 1.3em;
@@ -227,4 +230,75 @@ line-height: 1.3em;
     transform:translateX(-50%);
     z-index: -1;
     height: 280px;
+}
+
+/* cube */
+
+
+@-webkit-keyframes rotatedelement{
+  0%{
+      -webkit-transform:translate(0) rotate(0deg);
+      transform:translate(0) rotate(0deg)
+  }
+  25%{
+      -webkit-transform:translate(-10px,10px) rotate(10deg);
+      transform:translate(-10px,10px) rotate(10deg)
+  }
+  50%{
+      -webkit-transform:translate(5px,-5px) rotate(25deg);
+      transform:translate(5px,-5px) rotate(25deg)
+  }
+  75%{
+      -webkit-transform:translate(15px,-5px) rotate(15deg);
+      transform:translate(15px,-5px) rotate(15deg)
+  }
+  to{
+      -webkit-transform:translate(0) rotate(0deg);
+      transform:translate(0) rotate(0deg)
+  }
+}
+@keyframes rotatedelement{
+  0%{
+      -webkit-transform:translate(0) rotate(0deg);
+      transform:translate(0) rotate(0deg)
+  }
+  25%{
+      -webkit-transform:translate(-10px,10px) rotate(10deg);
+      transform:translate(-10px,10px) rotate(10deg)
+  }
+  50%{
+      -webkit-transform:translate(5px,-5px) rotate(25deg);
+      transform:translate(5px,-5px) rotate(25deg)
+  }
+  75%{
+      -webkit-transform:translate(15px,-5px) rotate(15deg);
+      transform:translate(15px,-5px) rotate(15deg)
+  }
+  to{
+      -webkit-transform:translate(0) rotate(0deg);
+      transform:translate(0) rotate(0deg)
+  }
+}
+
+.help-text{
+  font-family: "Nunito",Sans-serif;
+  -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+.rotates-cube{
+  -webkit-animation:rotatedelement 5s linear infinite;
+    animation:rotatedelement 5s linear infinite
+}
+
+.whyus-section{
+  background-color: #0d1424;
+  background-image: url(http://dexlegion.com/wp-content/uploads/2022/06/bg-overlay.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 55px 0 80px;
 }
