@@ -1,22 +1,23 @@
 import React,{useState} from 'react'
 import { FiMenu } from 'react-icons/fi'
 import { FaTelegram,FaEnvelope,FaGithub } from 'react-icons/fa'
+import logo from '../assets/ideal.png'
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false)
   return (
     <>
-        <div className='absolute z-[1000] top-0 left-0 w-full'>
+        <div className='absolute z-[1000] top-0 left-0 w-full' id="top">
              <nav className='relative w-full px-[2%] z-auto left-0 mx-auto flex items-center min-h-[108px]'>
                   <div className='px-[22px] flex justify-between w-full '>
                      <div className='flex items-center'>
-                        <a href="#">
-                            <img className='w-auto  max-h-[50px]' src="https://dexlegion.com/wp-content/uploads/2021/04/dexlegion-logo-white-horizontal-last-2.png" alt="logo" />
+                        <a href="/">
+                            <img className='w-auto  max-h-[50px]' src={logo} alt="logo" />
                         </a>
                      </div>
                      <div className='flex items-center gap-4 '>
                           <div>
-                                <a href="#">
+                                <a href="https://t.me/Ideal_Creators_Team">
                                      <div className=' text-white px-7 py-3 bg-transparent text-xs font-bold rounded-md ' style={{background: 'linear-gradient(90deg,#0095fa -20%,#00c1cd 115%)'}}>
                                          <span>GET IN TOUCH</span>
                                      </div>
@@ -37,7 +38,7 @@ const Navbar = () => {
              <div className='h-[100vh] w-full py-[40px] px-[25px] z-[2] bg-[#0d1424] relative inset-0 '>
                 <aside className='flex flex-col gap-10 '>
                       <div className='relative'>
-                             <img src="https://dexlegion.com/wp-content/uploads/2021/04/dexlegion-logo-white-vertical-2.png" alt="logo" />
+                             <img src={logo} alt="logo" />
                       </div>
                       
                         <div className='flex flex-col gap-5 '>
@@ -50,7 +51,7 @@ const Navbar = () => {
                         </div>
                       <div className="flex flex-col gap-1">
                       <div className='flex  '>
-                           <a href="#">
+                           <a href="https://t.me/Ideal_Creators_Team">
                            <div className="flex gap-2 items-center">
                              <div>
                                    <FaTelegram className='w-6 h-6 text-white' />

@@ -6,9 +6,7 @@ const WhyUs = () => {
         <section className='whyus-section'>
             <div className='max-w-[1190px] h-full mx-auto flex relative '>
                   <div className="flex w-full h-full">
-                     <div className='w-1/2 h-full'>
-
-                     </div>
+                     
                      <div className='w-1/2 h-full'>
                        <div className='w-full p-2 '>
                            <div className='pr-5'>
@@ -79,7 +77,103 @@ const WhyUs = () => {
                      </div>
 
                      <div className='w-1/2 h-full '>
-                         
+                        <div className='w-full p-2 '>
+                           <div className="flex flex-col ">
+                                 <div className="flex gap-4">
+                                       <div className="flex us-card">
+                                         <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
+                                              <div className='flex flex-col text-left'>
+                                                  <div className='mb-5'>
+                                                         <figure className='w-[86px] max-w-[86px] '>
+                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/optimized-code.png" alt="card" />
+                                                         </figure>
+                                                  </div>
+                                                  <div className='flex flex-col gap-1'>
+                                                      <div className='text-xl font-bold leading-[26px] text-white'>
+                                                             <h2>Speed & Reliability</h2>
+                                                      </div>
+                                                      <div className='text-base font-normal text-white '>
+                                                        <p>Highly optimized reliable application with perfect uptime.</p>
+                                                      </div>
+
+                                                  </div>
+                                              </div>
+
+                                         </div>
+                                        
+                                       </div>
+                                       <div className="flex us-card">
+                                         <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
+                                              <div className='flex flex-col text-left'>
+                                                  <div className='mb-5'>
+                                                         <figure className='w-[86px] max-w-[86px] '>
+                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/code-icon-2.png" alt="card" />
+                                                         </figure>
+                                                  </div>
+                                                  <div className='flex flex-col gap-1'>
+                                                      <div className='text-xl font-bold leading-[26px] text-white'>
+                                                             <h2>Upgradeable Code</h2>
+                                                      </div>
+                                                      <div className='text-base font-normal text-white '>
+                                                        <p>Readable and easily updateable code structures.</p>
+                                                      </div>
+
+                                                  </div>
+                                              </div>
+
+                                         </div>
+                                        
+                                       </div>
+                                 </div>
+                                 <div className="flex gap-4">
+                                 <div className="flex us-card">
+                                         <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
+                                              <div className='flex flex-col text-left'>
+                                                  <div className='mb-5'>
+                                                         <figure className='w-[86px] max-w-[86px] '>
+                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/blockchain-algorithm-icon.png" alt="card" />
+                                                         </figure>
+                                                  </div>
+                                                  <div className='flex flex-col gap-1'>
+                                                      <div className='text-xl font-bold leading-[26px] text-white'>
+                                                             <h2>Complex Algorithms</h2>
+                                                      </div>
+                                                      <div className='text-base font-normal text-white '>
+                                                        <p>Easy solutions in complex algorithms with TypeScript data structures.</p>
+                                                      </div>
+
+                                                  </div>
+                                              </div>
+
+                                         </div>
+                                        
+                                       </div>
+                                       <div className="flex us-card">
+                                         <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
+                                              <div className='flex flex-col text-left'>
+                                                  <div className='mb-5'>
+                                                         <figure className='w-[86px] max-w-[86px] '>
+                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/chain-icon.png" alt="card" />
+                                                         </figure>
+                                                  </div>
+                                                  <div className='flex flex-col gap-1'>
+                                                      <div className='text-xl font-bold leading-[26px] text-white'>
+                                                             <h2>EVM Knowledge</h2>
+                                                      </div>
+                                                      <div className='text-base font-normal text-white '>
+                                                        <p>We have a deep understanding of Ethereum technologies.</p>
+                                                      </div>
+
+                                                  </div>
+                                              </div>
+
+                                         </div>
+                                        
+                                       </div>
+                                 </div>
+
+                           </div>
+                          </div>
 
                      </div>
 
