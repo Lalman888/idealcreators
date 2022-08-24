@@ -3,8 +3,8 @@ import React from 'react'
 const Work = () => {
   return (
     <>
-        <section className='bg-[#0d1424] pt-12 pb-16 '>
-             <div className='max-w-[1190px] h-full mx-auto flex relative'>
+        <section className='bg-[#0d1424] pt-12 pb-16 transition-all ease-in duration-1000 ' id = "portfolio">
+             <div className='xl:max-w-[1190px] lg:max-w-[1018px] mini:max-w-[calc(90%+20px)] small:max-w-[440px] sm:max-w-[580px] h-full mx-auto flex relative'>
                  <div className='p-2 w-full'>
                     <div className='flex w-full flex-col gap-1'>
                           <div className='flex justify-center text-white text-base font-bold uppercase ' style={{letterSpacing: '.01px'}}>
@@ -15,8 +15,8 @@ const Work = () => {
                              <h2>Our Works</h2>
 
                           </div>
-                          <div className=' flex relative h-[486px]'>
-                             <div className='pr-[30px] pb-[30px] w-1/2 h-full absolute left-0 top-0'>
+                          <div className=' flex relative h-[486px] mini:flex-col mini:px-6 '>
+                             <div className='pr-[30px] mini:pr-0 pb-[30px] w-1/2 h-full absolute mini:w-full mini:relative left-0 top-0'>
                                 <div className='relative h-full '>
                                     <a href="#">
                                         <div className="img-box-card">
@@ -34,7 +34,7 @@ const Work = () => {
                              </div> 
 
 
-                             <div className='pr-[30px] pb-[30px] w-1/2 h-full absolute left-[50%] top-0'>
+                             <div className='pr-[30px] mini:pr-0 pb-[30px] w-1/2 h-full absolute mini:w-full mini:relative mini:left-0 left-[50%] top-0'>
                                 <div className='relative h-full '>
                                     <a href="#">
                                         <div className="img-box-card">

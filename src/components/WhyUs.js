@@ -4,10 +4,10 @@ const WhyUs = () => {
   return (
     <>
         <section className='whyus-section'>
-            <div className='max-w-[1190px] h-full mx-auto flex relative '>
-                  <div className="flex w-full h-full">
+            <div className='xl:max-w-[1190px]  lg:max-w-[1018px] mini:max-w-[calc(90%+20px)] mini:p-3 small:max-w-[440px] sm:max-w-[580px] h-full mx-auto flex relative '>
+                  <div className="flex w-full h-full mini:flex-col">
                      
-                     <div className='w-1/2 h-full'>
+                     <div className='lg:w-5/12 mini:text-center xl:w-1/2 h-full'>
                        <div className='w-full p-2 '>
                            <div className='pr-5'>
                               <div className='flex flex-col'>
@@ -19,11 +19,11 @@ const WhyUs = () => {
                                   <div className='text-[34px] mb-5 text-white font-extrabold '>
                                      <h2>Geniousity of TypeScript</h2>
                                   </div>
-                                  <div className='text-[#c5c5c5] text-base font-normal'>
+                                  <div className='text-[#c5c5c5] mini:mb-5 text-base font-normal'>
                                   <p>Stable and high-performance NodeJS applications with TypeScript supported JavaScript.</p>
                                   </div>
                                   <div className='flex flex-col gap-5 pt-3 pb-6' >
-                                      <div className="flex gap-2 items-center ">
+                                      <div className="flex gap-2 items-center mini:flex-col  ">
                                             <div>
                                                     <figure className='w-[35px] max-w-[35px] '>
                                                       <img src="https://dexlegion.com/wp-content/uploads/2020/10/blue-chek-icon.png" alt="tick"  className='max-w-[100%]'/>
@@ -35,7 +35,7 @@ const WhyUs = () => {
                                                     </p>
                                             </div>
                                       </div>
-                                      <div className="flex gap-2 items-center ">
+                                      <div className="flex gap-2 items-center mini:flex-col ">
                                             <div>
                                                     <figure className='w-[35px] max-w-[35px] '>
                                                       <img src="https://dexlegion.com/wp-content/uploads/2020/10/blue-chek-icon.png" alt="tick"  className='max-w-[100%]'/>
@@ -47,7 +47,7 @@ const WhyUs = () => {
                                                     </p>
                                             </div>
                                       </div>
-                                      <div className="flex gap-2 items-center">
+                                      <div className="flex gap-2 items-center mini:flex-col">
                                             <div>
                                                     <figure className='w-[35px] max-w-[35px] '>
                                                       <img src="https://dexlegion.com/wp-content/uploads/2020/10/blue-chek-icon.png" alt="tick"  className='max-w-[100%]'/>
@@ -62,7 +62,7 @@ const WhyUs = () => {
                                       
                                   </div>
                                   <div className='w-full pt-5'>
-                                       <a href='#' className='py-[13px] px-[27px] rounded-[5px] ' style={{border: '1px solid #fff'}}>
+                                       <a href='#portfolio' className='py-[13px] px-[27px] rounded-[5px] ' style={{border: '1px solid #fff'}}>
                                            <span className='text-xs font-medium text-white' style={{letterSpacing: '.2px'}}>CHECK OUR PORTFOLIO</span>
                                        </a>
                                   </div>
@@ -76,10 +76,10 @@ const WhyUs = () => {
 
                      </div>
 
-                     <div className='w-1/2 h-full '>
+                     <div className='lg:w-7/12 xl:w-1/2 h-full '>
                         <div className='w-full p-2 '>
                            <div className="flex flex-col ">
-                                 <div className="flex gap-4">
+                                 <div className="flex gap-4 mini:flex-col ">
                                        <div className="flex us-card">
                                          <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
                                               <div className='flex flex-col text-left'>
@@ -125,7 +125,7 @@ const WhyUs = () => {
                                         
                                        </div>
                                  </div>
-                                 <div className="flex gap-4">
+                                 <div className="flex gap-4 mini:flex-col">
                                  <div className="flex us-card">
                                          <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
                                               <div className='flex flex-col text-left'>

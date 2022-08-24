@@ -29,7 +29,7 @@ const Hero = () => {
 
       {/* Hero */}
 
-      <div className="max-w-[1190px] h-full mx-auto flex relative ">
+      <div className="xl:max-w-[1190px] lg:max-w-[1018px] mini:max-w-[calc(90%+20px)] small:max-w-[440px] sm:max-w-[580px] h-full mx-auto flex relative ">
         <div className="w-full h-full p-[10px]">
           <div className="flex w-full h-full items-center">
             <div className="flex w-full flex-col ">
@@ -52,11 +52,50 @@ const Hero = () => {
                 </div>
               </div>
               <div className="flex justify-center ">
-                <div className="text-white text-xl font-normal">
+                <div className="text-white text-xl mini:text-base font-normal">
                   AI-Powered Coding Services
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="hidden -mt-36 mini:block small:block sm:block mini:w-full ">
+          <a href="https://t.me/Ideal_Creators_Team" className="mini:w-full">
+                    <div
+                      className="py-[13px] px-[27px] h-[49px]  justify-center items-center touch-btn w-[160px] mini:w-full mini:h-11 gap-2 rounded-[5px] font-medium text-xs text-white flex"
+                      style={{ letterSpacing: ".2px" }}
+                    >
+                      <div>
+                        <span>GET IN TOUCH</span>
+                      </div>
+                      <div className="flex  ">
+                        <svg
+                          version="1.0"
+                          xmlns="http://www.w3.org/2000/svg"
+                          
+                          width="6.000000pt"
+                          height="12.000000pt"
+                          viewBox="0 0 604.000000 980.000000"
+                          preserveAspectRatio="xMidYMid meet"
+                          className="fill-white w-[6px] h-[14px]"
+                        >
+                          <g
+                            transform="translate(0.000000,980.000000) scale(0.100000,-0.100000)"
+                            // fill="#000000"
+                            stroke="none"
+                          >
+                            <path
+                              d="M421 9419 c-221 -209 -401 -385 -399 -389 2 -5 988 -933 2191 -2064
+1203 -1130 2188 -2058 2188 -2062 1 -3 -986 -933 -2193 -2067 -1206 -1134
+-2193 -2065 -2193 -2070 0 -5 180 -180 400 -388 l400 -378 35 33 c19 18 1009
+948 2200 2065 2528 2373 2974 2792 2978 2802 4 9 -286 282 -2948 2780 -1185
+1112 -2178 2044 -2206 2071 l-50 48 -403 -381z"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
           </div>
         </div>
       </div>

@@ -3,8 +3,8 @@ import React from 'react'
 const HelpCardTwo = () => {
   return (
     <>
-        <div className='flex w-full text-white flex-wrap'>
-             <div className='p-4 w-1/3 '>
+        <div className='flex w-full text-white flex-wrap mini:flex-col'>
+             <div className='p-4 w-1/3 mini:w-full '>
                    <div className="w-full flex flex-col px-[15px] pb-5 text-center">
                         <div className='flex justify-center'>
                         <figure className='mb-5  w-[108px] max-w-[108px] '>
@@ -19,7 +19,7 @@ const HelpCardTwo = () => {
                         </div>
                    </div>
              </div>
-             <div className='p-4 w-1/3 '>
+             <div className='p-4 w-1/3 mini:w-full '>
                    <div className="w-full flex flex-col px-[15px] pb-5 text-center">
                         <div className='flex justify-center'>
                         <figure className='mb-5  w-[108px] max-w-[108px] '>
@@ -34,7 +34,7 @@ const HelpCardTwo = () => {
                         </div>
                    </div>
              </div>
-             <div className='p-4 w-1/3 '>
+             <div className='p-4 w-1/3 mini:w-full '>
                    <div className="w-full flex flex-col px-[15px] pb-5 text-center">
                         <div className='flex justify-center'>
                         <figure className='mb-5  w-[108px] max-w-[108px] '>

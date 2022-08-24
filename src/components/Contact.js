@@ -4,12 +4,12 @@ const Contact = () => {
   return (
     <>
       <section className="contact-me relative">
-        <div className="max-w-[1190px] h-full mx-auto flex relative ">
-          <div className="w-1/2 p-2 ">
+        <div className="xl:max-w-[1190px] lg:max-w-[1018px] mini:max-w-[calc(90%+20px)] mini:flex-col small:max-w-[440px] sm:max-w-[580px] h-full mx-auto flex relative ">
+          <div className="w-1/2 mini:w-full p-2 ">
             <div className="w-full pr-[12%] ">
               <div className="p-[10px] flex flex-col ">
                 <div className="pb-5 ">
-                  <p className="text-white text-[72px] font-bold leading-[80px]">
+                  <p className="text-white text-[72px] mini:text-[50px] mini:leading-[65px] font-bold leading-[80px]">
                     Let’s work together
                   </p>
                 </div>
@@ -61,9 +61,9 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="w-1/2 p-2">
+          <div className="w-1/2 mini:w-full p-2">
              <div className="w-full">
-                <div className="-ml-[59px] -mr-[11px] ">
+                <div className="-ml-[59px] mini:-ml-[3px] -mr-[11px] mini:-mr-[8px] ">
                    <div className="w-full">
                     <img src="https://dexlegion.com/wp-content/uploads/2020/11/work-together.png" alt="work" />
                    </div>
