@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="contact-me relative">
+      <section className="contact-me relative mini:pt-9">
         <div className="xl:max-w-[1190px] lg:max-w-[1018px] mini:max-w-[calc(90%+20px)] mini:flex-col small:max-w-[440px] sm:max-w-[580px] h-full mx-auto flex relative ">
           <div className="w-1/2 mini:w-full p-2 ">
             <div className="w-full pr-[12%] ">

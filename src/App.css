@@ -58,11 +58,12 @@ line-height: 1.3em;
   
 
 .menuani{
-  -webkit-transition:background .3s,border .3s,border-radius .3s,-webkit-box-shadow .3s;
+  /* -webkit-transition:background .3s,border .3s,border-radius .3s,-webkit-box-shadow .3s;
   transition:background .3s,border .3s,border-radius .3s,-webkit-box-shadow .3s;
-  -o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;
-  transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;
-  transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s
+  -o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s; */
+  /* transition:background .3s,border .3s,border-radius .3s,box-shadow .3s; */
+  /* transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s; */
+  transition:all 0.6s ease-in ;
 }
 
   .hero-background{
@@ -348,6 +349,14 @@ line-height: 1.3em;
   width: 207px;
   height: 221px;
 }
+@media screen and (max-width: 768px) {
+  .flex.flex-col.text-left{
+    width: 100%;
+    /* height: auto; */
+  }
+}
+  
+
 
 @-webkit-keyframes rotatedelement{
   0%{
@@ -405,10 +414,13 @@ line-height: 1.3em;
   margin: auto;
 }
 
+
+
 .work-box-img{
   position: absolute;
   top: 0;
   bottom: 0;
+  padding: 20px;
   left: 0;
   right: 0;
   height: 100%;
@@ -428,7 +440,9 @@ line-height: 1.3em;
 .work-box-img:hover{
   -webkit-transform:scale(1.15);
   -ms-transform:scale(1.15);
-  transform:scale(1.15)
+  transform:scale(1.15);
+  padding: 8px;
+  
 }
 /* img.work-box-img:hover{
   transform:scale(1.15)
@@ -465,6 +479,10 @@ line-height: 1.3em;
   border-radius: 5px;
   z-index: 4;
 
+}
+.img-box-card:hover{
+   padding: 10px;
+   transition: padding 0.6s ease-in-out;
 }
 .contact-me{
   background-color: #0d1424;

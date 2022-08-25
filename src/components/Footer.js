@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../assets/ideal.png'
+import upwork from '../assets/upwork.png'
+import {FcManager} from 'react-icons/fc'
 
 const Footer = () => {
   return (
@@ -23,20 +25,25 @@ const Footer = () => {
                              <div className='text-base text-[#f0f0f0] font-normal'>
                                  <p>Ideal Creators is a software company working in the Web3 space.</p>
                              </div>
-                             <div className="flex gap-6 justify-center">
+                             <div className="flex gap-6 mini:justify-center">
                                  <div className='flex items-center'>
                                     <a href="https://t.me/Ideal_Creators_Team">
                                         <img className=' w-8 h-8 ' src="https://dexlegion.com/wp-content/uploads/2021/04/telegram-icon-blue-32.png" alt="telegram" />
                                     </a>
                                  </div>
                                  <div className='flex items-center'>
-                                    <a href="https://t.me/Ideal_Creators_Team">
-                                        <img className=' w-8 h-8 ' src="https://dexlegion.com/wp-content/uploads/2021/04/gmail-icon-32.png" alt="telegram" />
+                                    <a href="mailto:seguntch@gmail.com">
+                                        <img className=' w-8 h-8 ' src="https://dexlegion.com/wp-content/uploads/2021/04/gmail-icon-32.png" alt="gmail" />
                                     </a>
                                  </div>
                                  <div className='flex items-center'>
-                                    <a href="https://t.me/Ideal_Creators_Team">
-                                        <img className=' w-8 h-8 ' src="https://dexlegion.com/wp-content/uploads/2021/04/github-icon-32.png" alt="telegram" />
+                                    <a href="https://www.upwork.com/freelancers/~017a0b62a0da4ec7f6">
+                                        <img className=' w-8 h-8 ' src={upwork} alt="upwork" />
+                                    </a>
+                                 </div>
+                                 <div className='flex items-center'>
+                                    <a href="https://t.me/Johnny_DC">
+                                        <FcManager className=' w-8 h-8 '/>
                                     </a>
                                  </div>
 
@@ -48,12 +55,12 @@ const Footer = () => {
                              <div className='text-xl font-extrabold text-[#fff]'>
                                   <h4>Portfolio</h4>
                              </div>
-                             <div className='text-base text-[#f0f0f0] font-normal'>
+                             <a href="https://vipminerv2.finance/" className='text-base text-[#f0f0f0] font-normal'>
+                                 <p>VIP Miner</p>
+                             </a>
+                             <a href="https://zesty-melba-bfa271.netlify.app/" className='text-base text-[#f0f0f0] font-normal'>
                                  <p>BSC Sniper</p>
-                             </div>
-                             <div className='text-base text-[#f0f0f0] font-normal'>
-                                 <p>BSC Sniper</p>
-                             </div>
+                             </a>
                              
                        </div>
                        </div>
@@ -62,9 +69,9 @@ const Footer = () => {
                              <div className='text-xl font-extrabold text-[#fff]'>
                                   <h4>Community</h4>
                              </div>
-                             <div className='text-base text-[#f0f0f0] font-normal'>
-                                 <p>BSC Sniper</p>
-                             </div>
+                             <a href="https://t.me/Ideal_Creators_Team" className='text-base text-[#f0f0f0] font-normal'>
+                                 <p>Ideal Creators</p>
+                             </a>
                             
                              
                        </div>

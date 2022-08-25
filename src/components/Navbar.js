@@ -30,9 +30,9 @@ const Navbar = () => {
                           </div>
                           <div className='menuani ' onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                                  {
-                                         hover ? <BiMenuAltRight onClick={() => setMenu(true)} className='w-8 h-7 text-white xl:block hidden cursor-pointer transition duration-700 ease-in-out'  /> : <FiMenu onClick={() => setMenu(true)} className='transition duration-700 ease-in-out w-8 h-7 text-white xl:block hidden cursor-pointer'  />
+                                         hover ? <BiMenuAltRight onClick={() => setMenu(true)} className='w-8 h-7 text-white xl:block hidden cursor-pointer menuani'  /> : <FiMenu onClick={() => setMenu(true)} className='menuani w-8 h-7 text-white xl:block hidden cursor-pointer'  />
                                  }
-                                 <IoIosArrowBack onClick={() => setMenu(false)} className='w-6 h-5 hidden lg:block text-white cursor-pointer' />
+                                 <IoIosArrowBack onClick={() => setMenu(false)} className='menuani w-6 h-5 hidden lg:block text-white cursor-pointer' />
                           </div>
                      </div>
 

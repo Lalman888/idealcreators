@@ -1,4 +1,5 @@
 import React from 'react'
+import projectone from '../assets/projects/miner.png'
 
 const Work = () => {
   return (
@@ -18,14 +19,14 @@ const Work = () => {
                           <div className=' flex relative h-[486px] mini:flex-col mini:px-6 '>
                              <div className='pr-[30px] mini:pr-0 pb-[30px] w-1/2 h-full absolute mini:w-full mini:relative left-0 top-0'>
                                 <div className='relative h-full '>
-                                    <a href="#">
+                                    <a href="https://vipminerv2.finance/">
                                         <div className="img-box-card">
 
                                        
                                         <div className='relative z-[1] work-box'>
                                             <div className='pb-[80%] bg-[#1E2946]'>
                                             </div>
-                                             <img src="https://dexlegion.com/wp-content/uploads/2022/01/dexlegion-bsc-liquidity-sniper-pancake-swap-bot-arbitrage-flashloan-backg-1170x936.jpg" alt="work" className='work-box-img' />
+                                             <img src={projectone} alt="work" className='work-box-img' />
                                         </div>
                                         </div>
                                     </a>
@@ -36,7 +37,7 @@ const Work = () => {
 
                              <div className='pr-[30px] mini:pr-0 pb-[30px] w-1/2 h-full absolute mini:w-full mini:relative mini:left-0 left-[50%] top-0'>
                                 <div className='relative h-full '>
-                                    <a href="#">
+                                    <a href="https://zesty-melba-bfa271.netlify.app/">
                                         <div className="img-box-card">
 
                                        

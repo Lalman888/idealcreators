@@ -84,11 +84,11 @@ const WhyUs = () => {
                                          <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
                                               <div className='flex flex-col text-left'>
                                                   <div className='mb-5'>
-                                                         <figure className='w-[86px] max-w-[86px] '>
-                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/optimized-code.png" alt="card" />
+                                                         <figure className='mini:flex mini:justify-center mini:w-full' >
+                                                           <img className='w-[86px] max-w-[86px] ' src="https://dexlegion.com/wp-content/uploads/2022/06/optimized-code.png" alt="card" />
                                                          </figure>
                                                   </div>
-                                                  <div className='flex flex-col gap-1'>
+                                                  <div className='flex flex-col gap-1 mini:text-center mini:px-2'>
                                                       <div className='text-xl font-bold leading-[26px] text-white'>
                                                              <h2>Speed & Reliability</h2>
                                                       </div>
@@ -106,11 +106,11 @@ const WhyUs = () => {
                                          <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
                                               <div className='flex flex-col text-left'>
                                                   <div className='mb-5'>
-                                                         <figure className='w-[86px] max-w-[86px] '>
-                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/code-icon-2.png" alt="card" />
+                                                         <figure  className='mini:flex mini:justify-center mini:w-full'>
+                                                           <img className='w-[86px] max-w-[86px] ' src="https://dexlegion.com/wp-content/uploads/2022/06/code-icon-2.png" alt="card" />
                                                          </figure>
                                                   </div>
-                                                  <div className='flex flex-col gap-1'>
+                                                  <div className='flex flex-col gap-1 mini:text-center mini:px-2'>
                                                       <div className='text-xl font-bold leading-[26px] text-white'>
                                                              <h2>Upgradeable Code</h2>
                                                       </div>
@@ -130,11 +130,11 @@ const WhyUs = () => {
                                          <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
                                               <div className='flex flex-col text-left'>
                                                   <div className='mb-5'>
-                                                         <figure className='w-[86px] max-w-[86px] '>
-                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/blockchain-algorithm-icon.png" alt="card" />
+                                                         <figure  className='mini:flex mini:justify-center mini:w-full'>
+                                                           <img className='w-[86px] max-w-[86px] ' src="https://dexlegion.com/wp-content/uploads/2022/06/blockchain-algorithm-icon.png" alt="card" />
                                                          </figure>
                                                   </div>
-                                                  <div className='flex flex-col gap-1'>
+                                                  <div className='flex flex-col gap-1 mini:text-center mini:px-2'>
                                                       <div className='text-xl font-bold leading-[26px] text-white'>
                                                              <h2>Complex Algorithms</h2>
                                                       </div>
@@ -152,11 +152,11 @@ const WhyUs = () => {
                                          <div className= 'pt-[50px] pb-[40px] pr-[20px] pl-[40px] '>
                                               <div className='flex flex-col text-left'>
                                                   <div className='mb-5'>
-                                                         <figure className='w-[86px] max-w-[86px] '>
-                                                           <img src="https://dexlegion.com/wp-content/uploads/2022/06/chain-icon.png" alt="card" />
+                                                         <figure className='mini:flex mini:justify-center mini:w-full'>
+                                                           <img className='w-[86px] max-w-[86px] '  src="https://dexlegion.com/wp-content/uploads/2022/06/chain-icon.png" alt="card" />
                                                          </figure>
                                                   </div>
-                                                  <div className='flex flex-col gap-1'>
+                                                  <div className='flex flex-col gap-1 mini:text-center mini:px-2'>
                                                       <div className='text-xl font-bold leading-[26px] text-white'>
                                                              <h2>EVM Knowledge</h2>
                                                       </div>
